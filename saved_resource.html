@@ -1,0 +1,623 @@
+
+<!-- saved from url=(0011)about:blank -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><div id="webpack-dev-server-client-overlay-div" style="position: fixed; box-sizing: border-box; inset: 0px; width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.85); color: rgb(232, 232, 232); font-family: Menlo, Consolas, monospace; font-size: large; padding: 2rem; line-height: 1.2; white-space: pre-wrap; overflow: auto;"><span style="color: #E36049">Failed to compile.</span><br><br>./src/components/Maruba2.vue
+Module Error (from ./node_modules/vue-loader-v16/dist/index.js):
+
+<span style="color:#E36049;">VueCompilerError: </span>
+<span style="color:#E36049;"></span>VueCompilerError: Single file component can contain only one &lt;script&gt; element<span style="color:#E36049;"></span>
+<span style="color:#E36049;"><span style="color:#6D7891;">at /Users/ootaeiki/Desktop/vueProject/maruba2/src/components/Maruba2.vue:25:1</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">22 |      &lt;/div&gt;</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">23 |  &lt;/template&gt;</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">24 |  &lt;script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.min.js"&gt; &lt;/script&gt;</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |                                                                                   ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">25 |  &lt;script&gt;//javascript</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">26 |  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">27 |  export default {</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">28 |    data() {</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">29 |      return {</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">30 |        states: [],</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">31 |        playerId: 1,</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">32 |        winnerText: ""</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">33 |      };</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">34 |    },</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">35 |    methods: {</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">36 |      init: function() {</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">37 |        this.states = [</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">38 |          [-1, -1, -1],</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">39 |          [-1, -1, -1],</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">40 |          [-1, -1, -1]</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">41 |        ];</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">42 |      },</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">43 |    }</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">44 |  }</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">45 |  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">46 |          new Vue({</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">47 |              el: '#app',</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">48 |              data: {</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">49 |                  states: [], // 初期値はmountedの中で設定</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">50 |                  playerId: 1, // ○ のプレイヤーから開始</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">51 |                  winnerText: ''</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">52 |              },</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">53 |              methods: {</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">54 |                  init: function() {</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">55 |  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">56 |                      this.states = [</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">57 |                          [-1, -1, -1],</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">58 |                          [-1, -1, -1],</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">59 |                          [-1, -1, -1]</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">60 |                      ];//初期状態</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">61 |  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">62 |                  },</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">63 |                  onSelect: function(rowsIndex, colsIndex) {</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">64 |  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">65 |                      this.winnerText = '';</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">66 |  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">67 |                      if(this.states[rowsIndex][colsIndex] != -1) {</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">68 |  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">69 |                          alert('そのマスは、すでに選択されています！');//選択済</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">70 |  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">71 |                      } else {</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">72 |  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">73 |                          var states = JSON.parse(JSON.stringify(this.states))</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">74 |                          states[rowsIndex][colsIndex] = this.playerId;</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">75 |                          this.states = states;</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">76 |                          this.playerId = (this.playerId == 1) ? 2 : 1;</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">77 |                          var winnerId = this.getWinnerId();</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">78 |  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">79 |                          if(winnerId != -1) {</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">80 |  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">81 |                              this.init();</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">82 |                              playerIds = {</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">83 |                                  1: '○',</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">84 |                                  2: '×'</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">85 |                              };</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">86 |                              this.winnerText = playerIds[winnerId] +' さんの勝ちです。おめでとうございます！';</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">87 |  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">88 |                          } else if(this.isDraw()) {</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">89 |  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">90 |                              this.init();</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">91 |                              alert('引き分けです！');</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">92 |  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">93 |                          }</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">94 |  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">95 |                      }</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">96 |  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">97 |                  },</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">98 |                  getWinnerId: function() {</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">99 |  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">100|                      for(var i = 0; i &lt; 3 ; i++){</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">101|  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">102|                          // 横の列</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">103|                          var row = this.states[i];</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">104|                          if(this.isStatesFilled(row)) { return row[0];}</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">105|  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">106|                          // 縦の列</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">107|                          var col = [</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">108|                              this.states[0][i],</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">109|                              this.states[1][i],</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">110|                              this.states[2][i]</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">111|                          ];</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">112|                          if(this.isStatesFilled(col)) { return this.states[0][i]; }</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">113|  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">114|                      }</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">115|  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">116|                      // ななめ</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">117|                      var skew1 = [</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">118|                          this.states[0][0],</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">119|                          this.states[1][1],</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">120|                          this.states[2][2]</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">121|                      ];</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">122|                      if(this.isStatesFilled(skew1)) { return this.states[0][0]; }</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">123|  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">124|                      var skew2 = [</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">125|                          this.states[0][2],</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">126|                          this.states[1][1],</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">127|                          this.states[2][0]</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">128|                      ];</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">129|                      if(this.isStatesFilled(skew2)) { return this.states[0][2]; }</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">130|  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">131|                      return -1;</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">132|  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">133|                  },</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">134|                  isStatesFilled: function(states) {</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">135|  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">136|                      return(</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">137|                          states[0] != -1 &amp;&amp;</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">138|                          states[0] == states[1] &amp;&amp;</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">139|                          states[1] == states[2]</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">140|                      );</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">141|  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">142|                  },</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">143|                  isDraw: function() {</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">144|  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">145|                      for(var i in this.states) {</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">146|  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">147|                          var row = this.states[i];</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">148|  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">149|                          for(var j in row) {</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">150|  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">151|                              var state = row[j];</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">152|  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">153|                              if(state == -1) {</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">154|  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">155|                                  return false;</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">156|  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">157|                              }</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">158|  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">159|                          }</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">160|  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">161|                      }</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">162|  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">163|                      return true;</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">164|  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">165|                  }</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">166|              },</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">167|              mounted: function() {</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">168|  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">169|                  this.init();</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">170|  </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">171|              }</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">172|          })</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">173|     </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">174|      </span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">175|  &lt;/script&gt;</span></span>
+<span style="color:#E36049;"><span style="color:#FFD080;">   |  ^^^^^^^^^</span></span>
+<span style="color:#E36049;"></span>
+<span style="color:#6D7891;">at /Users/ootaeiki/Desktop/vueProject/maruba2/src/components/Maruba2.vue:25:1</span>
+<span style="color:#FFD080;">22 |      &lt;/div&gt;</span>
+<span style="color:#FFD080;">23 |  &lt;/template&gt;</span>
+<span style="color:#FFD080;">24 |  &lt;script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.min.js"&gt; &lt;/script&gt;</span>
+<span style="color:#FFD080;">   |                                                                                   ^</span>
+<span style="color:#FFD080;">25 |  &lt;script&gt;//javascript</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">26 |  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">27 |  export default {</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">28 |    data() {</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^</span>
+<span style="color:#FFD080;">29 |      return {</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">30 |        states: [],</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">31 |        playerId: 1,</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">32 |        winnerText: ""</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">33 |      };</span>
+<span style="color:#FFD080;">   |  ^^^^^^</span>
+<span style="color:#FFD080;">34 |    },</span>
+<span style="color:#FFD080;">   |  ^^^^</span>
+<span style="color:#FFD080;">35 |    methods: {</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">36 |      init: function() {</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">37 |        this.states = [</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">38 |          [-1, -1, -1],</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">39 |          [-1, -1, -1],</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">40 |          [-1, -1, -1]</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">41 |        ];</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^</span>
+<span style="color:#FFD080;">42 |      },</span>
+<span style="color:#FFD080;">   |  ^^^^^^</span>
+<span style="color:#FFD080;">43 |    }</span>
+<span style="color:#FFD080;">   |  ^^^</span>
+<span style="color:#FFD080;">44 |  }</span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">45 |  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">46 |          new Vue({</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">47 |              el: '#app',</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">48 |              data: {</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">49 |                  states: [], // 初期値はmountedの中で設定</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">50 |                  playerId: 1, // ○ のプレイヤーから開始</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">51 |                  winnerText: ''</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">52 |              },</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">53 |              methods: {</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">54 |                  init: function() {</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">55 |  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">56 |                      this.states = [</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">57 |                          [-1, -1, -1],</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">58 |                          [-1, -1, -1],</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">59 |                          [-1, -1, -1]</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">60 |                      ];//初期状態</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">61 |  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">62 |                  },</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">63 |                  onSelect: function(rowsIndex, colsIndex) {</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">64 |  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">65 |                      this.winnerText = '';</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">66 |  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">67 |                      if(this.states[rowsIndex][colsIndex] != -1) {</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">68 |  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">69 |                          alert('そのマスは、すでに選択されています！');//選択済</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">70 |  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">71 |                      } else {</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">72 |  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">73 |                          var states = JSON.parse(JSON.stringify(this.states))</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">74 |                          states[rowsIndex][colsIndex] = this.playerId;</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">75 |                          this.states = states;</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">76 |                          this.playerId = (this.playerId == 1) ? 2 : 1;</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">77 |                          var winnerId = this.getWinnerId();</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">78 |  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">79 |                          if(winnerId != -1) {</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">80 |  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">81 |                              this.init();</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">82 |                              playerIds = {</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">83 |                                  1: '○',</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">84 |                                  2: '×'</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">85 |                              };</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">86 |                              this.winnerText = playerIds[winnerId] +' さんの勝ちです。おめでとうございます！';</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">87 |  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">88 |                          } else if(this.isDraw()) {</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">89 |  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">90 |                              this.init();</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">91 |                              alert('引き分けです！');</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">92 |  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">93 |                          }</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">94 |  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">95 |                      }</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">96 |  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">97 |                  },</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">98 |                  getWinnerId: function() {</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">99 |  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">100|                      for(var i = 0; i &lt; 3 ; i++){</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">101|  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">102|                          // 横の列</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">103|                          var row = this.states[i];</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">104|                          if(this.isStatesFilled(row)) { return row[0];}</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">105|  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">106|                          // 縦の列</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">107|                          var col = [</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">108|                              this.states[0][i],</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">109|                              this.states[1][i],</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">110|                              this.states[2][i]</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">111|                          ];</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">112|                          if(this.isStatesFilled(col)) { return this.states[0][i]; }</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">113|  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">114|                      }</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">115|  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">116|                      // ななめ</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">117|                      var skew1 = [</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">118|                          this.states[0][0],</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">119|                          this.states[1][1],</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">120|                          this.states[2][2]</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">121|                      ];</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">122|                      if(this.isStatesFilled(skew1)) { return this.states[0][0]; }</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">123|  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">124|                      var skew2 = [</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">125|                          this.states[0][2],</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">126|                          this.states[1][1],</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">127|                          this.states[2][0]</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">128|                      ];</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">129|                      if(this.isStatesFilled(skew2)) { return this.states[0][2]; }</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">130|  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">131|                      return -1;</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">132|  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">133|                  },</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">134|                  isStatesFilled: function(states) {</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">135|  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">136|                      return(</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">137|                          states[0] != -1 &amp;&amp;</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">138|                          states[0] == states[1] &amp;&amp;</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">139|                          states[1] == states[2]</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">140|                      );</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">141|  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">142|                  },</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">143|                  isDraw: function() {</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">144|  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">145|                      for(var i in this.states) {</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">146|  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">147|                          var row = this.states[i];</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">148|  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">149|                          for(var j in row) {</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">150|  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">151|                              var state = row[j];</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">152|  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">153|                              if(state == -1) {</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">154|  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">155|                                  return false;</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">156|  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">157|                              }</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">158|  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">159|                          }</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">160|  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">161|                      }</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">162|  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">163|                      return true;</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">164|  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">165|                  }</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">166|              },</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">167|              mounted: function() {</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">168|  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">169|                  this.init();</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">170|  </span>
+<span style="color:#FFD080;">   |  ^</span>
+<span style="color:#FFD080;">171|              }</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^^^^</span>
+<span style="color:#FFD080;">172|          })</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^^</span>
+<span style="color:#FFD080;">173|     </span>
+<span style="color:#FFD080;">   |  ^^^</span>
+<span style="color:#FFD080;">174|      </span>
+<span style="color:#FFD080;">   |  ^^^^</span>
+<span style="color:#FFD080;">175|  &lt;/script&gt;</span>
+<span style="color:#FFD080;">   |  ^^^^^^^^^</span>
+</div></body></html>
